@@ -4,12 +4,10 @@ using namespace std;
 
 int main()
 {
-    int matrix[3][3]= {{1,2,3},
-        {4,5,6},{7,8,9}
-    };
+    int matrix[3][3]= {0};
     int columns,rows,n=0;
 
-    cout<<"Digite el tamaño de su matriz (Los arreglos se llenaran de numeros aleatorios): ";
+    cout<<"Digite el tamaÃ±o de su matriz (Los arreglos se llenaran de numeros aleatorios): ";
     cin>>n;
     n-=1;
     for(int i=0; i<n; i++)
